@@ -195,7 +195,7 @@
 
       async function inipesan() {
         var { value: nama } = await swals.fire({
-          title: "Masukin Nama Kamu",
+          title: "Mau di panggil apa?",
           input: "text",
         });
         if (nama && nama.length < 11) {
@@ -205,7 +205,7 @@
         } else {
           await swals.fire(
             "Ups!",
-            "Nama tidak boleh kosong atau lebih dari 10 karakter, ya!"
+            "gaboleh kosong atau lebih dari 10 ya beb"
           );
           inipesan();
         }
@@ -213,12 +213,12 @@
 
       //Variable Pertanyaan Akhir
       var tanya = "Mau lanjut lagi gaa";
-      var opstanya = "---------";
+      var opstanya = "-- 0 --";
       var tompositif = "Mau";
       var tomnegatif = "Engga";
 
       async function menuju() {
-        pesanwhatsapp = "Makasii udah ngucapin " + nama + " ultah ><";
+        pesanwhatsapp = "Love uuu -CICI DIMARE-";
         await swals.fire(
           "OK!",
           "Kirim jawabannya ke WhatsApp aku, ya!",
